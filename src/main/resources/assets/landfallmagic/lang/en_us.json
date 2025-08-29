@@ -1,0 +1,22 @@
+{
+  "itemGroup.landfallmagic": "Karma Magic",
+  "block.landfallmagic.fire_node": "Fire Node",
+  "block.landfallmagic.water_node": "Water Node",
+  "block.landfallmagic.earth_node": "Earth Node",
+  "block.landfallmagic.air_node": "Air Node",
+  "block.landfallmagic.dark_node": "Dark Node",
+  "block.landfallmagic.light_node": "Light Node",
+  "block.landfallmagic.order_node": "Order Node",
+  "block.landfallmagic.chaos_node": "Choas Node",
+  "block.landfallmagic.creation_node": "Creation Node",
+  "block.landfallmagic.destruction_node": "Destruction Node",
+
+
+  "landfallmagic.configuration.title": "Example Mod Configs",
+  "landfallmagic.configuration.section.landfallmagic.common.toml": "Example Mod Configs",
+  "landfallmagic.configuration.section.landfallmagic.common.toml.title": "Example Mod Configs",
+  "landfallmagic.configuration.items": "Item List",
+  "landfallmagic.configuration.logDirtBlock": "Log Dirt Block",
+  "landfallmagic.configuration.magicNumberIntroduction": "Magic Number Text",
+  "landfallmagic.configuration.magicNumber": "Magic Number"
+}

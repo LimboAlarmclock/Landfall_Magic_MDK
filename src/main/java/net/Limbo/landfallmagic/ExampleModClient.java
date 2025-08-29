@@ -1,4 +1,4 @@
-package net.Limbo.landfallclaim;
+package net.Limbo.landfallmagic;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
@@ -11,9 +11,9 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = LandfallClaim.MODID, dist = Dist.CLIENT)
+@Mod(value = landfallmagic.MODID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = LandfallClaim.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = landfallmagic.MODID, value = Dist.CLIENT)
 public class ExampleModClient {
     public ExampleModClient(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
@@ -25,7 +25,7 @@ public class ExampleModClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        LandfallClaim.LOGGER.info("HELLO FROM CLIENT SETUP");
-        LandfallClaim.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        landfallmagic.LOGGER.info("HELLO FROM CLIENT SETUP");
+        landfallmagic.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
